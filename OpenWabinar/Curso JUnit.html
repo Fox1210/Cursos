@@ -1,0 +1,541 @@
+
+<!-- Primer intento del examen -->
+<table class="table table-striped table-borderless">
+<thead>
+<tr>
+<th class="">Pregunta
+<a href="javascript:void(0)" onclick="$('.answers.d-none').removeClass('d-none');this.className='d-none'" class="d-none">Mostrar mis respuestas</a>
+</th>
+<th class="answers">Tu respuesta</th>
+<th class="text-center">Resultado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<span class="font-weight-normal">El ciclo de vida de los métodos @Tests:
+</span>
+</td>
+<td class="answers">
+Permite ejecuciones de código mediante hooks ofrecidos por JUnit 5.
+</td>
+<td class="text-center d-md-flex flex-nowrap align-items-center">
+<i class="fas fa-check  text-primary"></i>
+<span class="ml-2 d-none d-md-inline">Correcto</span>
+</td>
+</tr>
+<tr>
+<td>
+<span class="font-weight-normal">El método assertEquals…
+</span>
+</td>
+<td class="answers">
+Se basa en el método equals del tipo de objeto indicado.
+</td>
+<td class="text-center d-md-flex flex-nowrap align-items-center">
+<i class="fas fa-check  text-primary"></i>
+<span class="ml-2 d-none d-md-inline">Correcto</span>
+</td>
+</tr>
+<tr>
+<td>
+<span class="font-weight-normal">¿Qué anotación no está permitida para pasar los datos con @ParameterizedTest?
+</span>
+</td>
+<td class="answers">
+@MethodSource.
+</td>
+<td class="text-center d-md-flex flex-nowrap align-items-center">
+<i class="fas fa-times fa-lg text-secondary"></i>
+<span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+</td>
+</tr>
+<tr>
+<td>
+<span class="font-weight-normal">Los assumptions:
+</span>
+</td>
+<td class="answers">
+Permiten habilitar/deshabilitar parte de un test en función de si se cumple una condición booleana.
+</td>
+<td class="text-center d-md-flex flex-nowrap align-items-center">
+<i class="fas fa-check  text-primary"></i>
+<span class="ml-2 d-none d-md-inline">Correcto</span>
+</td>
+</tr>
+<tr>
+<td>
+<span class="font-weight-normal">La anotación de la pregunta anterior se puede sustituir por:
+</span>
+</td>
+<td class="answers">
+@EnabledIfSystemProperty(named=”java.version”, matches=”8.*.*)
+</td>
+<td class="text-center d-md-flex flex-nowrap align-items-center">
+<i class="fas fa-times fa-lg text-secondary"></i>
+<span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+</td>
+</tr>
+<tr>
+<td>
+<span class="font-weight-normal">JUnit 5…
+</span>
+</td>
+<td class="answers">
+Permite escribir y ejecutar tests unitarios.
+</td>
+<td class="text-center d-md-flex flex-nowrap align-items-center">
+<i class="fas fa-check  text-primary"></i>
+<span class="ml-2 d-none d-md-inline">Correcto</span>
+</td>
+</tr>
+<tr>
+<td>
+<span class="font-weight-normal">Las pruebas unitarias en JUnit 5...
+</span>
+</td>
+<td class="answers">
+Deben estar incluidos en métodos anotados con @Test.
+</td>
+<td class="text-center d-md-flex flex-nowrap align-items-center">
+<i class="fas fa-check  text-primary"></i>
+<span class="ml-2 d-none d-md-inline">Correcto</span>
+</td>
+</tr>
+<tr>
+<td>
+<span class="font-weight-normal">Si un test tiene varios asserts:
+</span>
+</td>
+<td class="answers">
+El test falla si un solo assert falla.
+</td>
+<td class="text-center d-md-flex flex-nowrap align-items-center">
+<i class="fas fa-check  text-primary"></i>
+<span class="ml-2 d-none d-md-inline">Correcto</span>
+</td>
+</tr>
+<tr>
+<td>
+<span class="font-weight-normal">La anotación @Disabled a nivel de método nos permite:
+</span>
+</td>
+<td class="answers">
+Hacer que el motor de JUnit 5 no ejecute dicho método.
+</td>
+<td class="text-center d-md-flex flex-nowrap align-items-center">
+<i class="fas fa-check  text-primary"></i>
+<span class="ml-2 d-none d-md-inline">Correcto</span>
+</td>
+</tr>
+<tr>
+<td>
+<span class="font-weight-normal">El testing automatizado…
+</span>
+</td>
+<td class="answers">
+No nos ofrece un reporte con el estado de la ejecución de los tests.
+</td>
+<td class="text-center d-md-flex flex-nowrap align-items-center">
+<i class="fas fa-times fa-lg text-secondary"></i>
+<span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+</td>
+</tr>
+<tr>
+<td>
+<span class="font-weight-normal">JUnit 5 ofrece la posibilidad de controlar si un test se ejecuta o no:
+</span>
+</td>
+<td class="answers">
+Sí, únicamente anotando el test con @Disabled.
+</td>
+<td class="text-center d-md-flex flex-nowrap align-items-center">
+<i class="fas fa-times fa-lg text-secondary"></i>
+<span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+</td>
+</tr>
+<tr>
+<td>
+<span class="font-weight-normal">Para probar en JUnit 5…
+</span>
+</td>
+<td class="answers">
+Se utilizan métodos estáticos Assert.
+</td>
+<td class="text-center d-md-flex flex-nowrap align-items-center">
+<i class="fas fa-check  text-primary"></i>
+<span class="ml-2 d-none d-md-inline">Correcto</span>
+</td>
+</tr>
+<tr>
+<td>
+<span class="font-weight-normal">Cuando un assert falla en un método anotado con @Test:
+</span>
+</td>
+<td class="answers">
+El test reporta todos los asserts que han fallado.
+</td>
+<td class="text-center d-md-flex flex-nowrap align-items-center">
+<i class="fas fa-times fa-lg text-secondary"></i>
+<span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+</td>
+</tr>
+<tr>
+<td>
+<span class="font-weight-normal">La anotación @DisplayName:
+</span>
+</td>
+<td class="answers">
+Permite especificar un nombre personalizado para los tests para el reporting.
+</td>
+<td class="text-center d-md-flex flex-nowrap align-items-center">
+<i class="fas fa-check  text-primary"></i>
+<span class="ml-2 d-none d-md-inline">Correcto</span>
+</td>
+</tr>
+<tr>
+<td>
+<span class="font-weight-normal">JUnit 5 permite dar nombres personalizados a cada ejecución del test. ¿Qué respuesta es incorrecta?
+</span>
+</td>
+<td class="answers">
+Podemos conocer el número total de repeticiones y el número de la repetición actual, pero no podemos hacer uso de @DisplayName para @RepeatedTest.
+</td>
+<td class="text-center d-md-flex flex-nowrap align-items-center">
+<i class="fas fa-check  text-primary"></i>
+<span class="ml-2 d-none d-md-inline">Correcto</span>
+</td>
+</tr>
+<tr>
+<td>
+<span class="font-weight-normal">@EnabledIfEnvironmentVariable permite:
+</span>
+</td>
+<td class="answers">
+Si la variable de entorno no existe, el método se ejecuta.
+</td>
+<td class="text-center d-md-flex flex-nowrap align-items-center">
+<i class="fas fa-times fa-lg text-secondary"></i>
+<span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+</td>
+</tr>
+<tr>
+<td>
+<span class="font-weight-normal">Las pruebas unitarias…
+</span>
+</td>
+<td class="answers">
+Prueban una única funcionalidad de un método y de forma aislada con el resto del código.
+</td>
+<td class="text-center d-md-flex flex-nowrap align-items-center">
+<i class="fas fa-check  text-primary"></i>
+<span class="ml-2 d-none d-md-inline">Correcto</span>
+</td>
+</tr>
+<tr>
+<td>
+<span class="font-weight-normal">Podemos habilitar o no un test en base a las properties de la JVM:
+</span>
+</td>
+<td class="answers">
+A través de la anotación @EnabledIfSystemProperty(named=””, matches=””)
+</td>
+<td class="text-center d-md-flex flex-nowrap align-items-center">
+<i class="fas fa-check  text-primary"></i>
+<span class="ml-2 d-none d-md-inline">Correcto</span>
+</td>
+</tr>
+<tr>
+<td>
+<span class="font-weight-normal">Se puede forzar a que la instancia de la clase se cree una sola vez:
+</span>
+</td>
+<td class="answers">
+El motor de JUnit 5 se encarga de hacerlo, pero lo hace de forma aleatoria.
+</td>
+<td class="text-center d-md-flex flex-nowrap align-items-center">
+<i class="fas fa-times fa-lg text-secondary"></i>
+<span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+</td>
+</tr>
+<tr>
+<td>
+<span class="font-weight-normal">Las clases anidadas:
+</span>
+</td>
+<td class="answers">
+Permiten ser anotadas con @BeforeAll y @AfterAll.
+</td>
+<td class="text-center d-md-flex flex-nowrap align-items-center">
+<i class="fas fa-times fa-lg text-secondary"></i>
+<span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- Segundo intento del examen -->
+<table class="table table-striped table-borderless">
+    <tbody>
+    <tr>
+    <td>
+    <span class="font-weight-normal">¿Qué anotación no está permitida para pasar los datos con @ParameterizedTest?
+    </span>
+    </td>
+    <td class="answers">
+    @ValueSource.
+    </td>
+    <td class="text-center d-md-flex flex-nowrap align-items-center">
+    <i class="fas fa-times fa-lg text-secondary"></i>
+    <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <span class="font-weight-normal">Cuando un assert falla en un método anotado con @Test:
+    </span>
+    </td>
+    <td class="answers">
+    Sólo informa del método assert que ha fallado.
+    </td>
+    <td class="text-center d-md-flex flex-nowrap align-items-center">
+    <i class="fas fa-check  text-primary"></i>
+    <span class="ml-2 d-none d-md-inline">Correcto</span>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <span class="font-weight-normal">El ciclo de vida de los métodos @Tests:
+    </span>
+    </td>
+    <td class="answers">
+    Permite ejecuciones de código mediante hooks ofrecidos por JUnit 5.
+    </td>
+    <td class="text-center d-md-flex flex-nowrap align-items-center">
+    <i class="fas fa-check  text-primary"></i>
+    <span class="ml-2 d-none d-md-inline">Correcto</span>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <span class="font-weight-normal">Para evaluar expresiones booleanas usamos los métodos:
+    </span>
+    </td>
+    <td class="answers">
+    assertTrue() y assertFalse()
+    </td>
+    <td class="text-center d-md-flex flex-nowrap align-items-center">
+    <i class="fas fa-check  text-primary"></i>
+    <span class="ml-2 d-none d-md-inline">Correcto</span>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <span class="font-weight-normal">Las pruebas unitarias en JUnit 5:
+    </span>
+    </td>
+    <td class="answers">
+    Se pueden ejecutar o no acorde a unas condiciones o configuraciones dadas.
+    </td>
+    <td class="text-center d-md-flex flex-nowrap align-items-center">
+    <i class="fas fa-check  text-primary"></i>
+    <span class="ml-2 d-none d-md-inline">Correcto</span>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <span class="font-weight-normal">JUnit 5 permite dar nombres personalizados a cada ejecución del test. ¿Qué respuesta es incorrecta?
+    </span>
+    </td>
+    <td class="answers">
+    Podemos conocer el número total de repeticiones y el número de la repetición actual, pero no podemos hacer uso de @DisplayName para @RepeatedTest.
+    </td>
+    <td class="text-center d-md-flex flex-nowrap align-items-center">
+    <i class="fas fa-check  text-primary"></i>
+    <span class="ml-2 d-none d-md-inline">Correcto</span>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <span class="font-weight-normal">@BeforeAll y @AfterAll:
+    </span>
+    </td>
+    <td class="answers">
+    Se ejecutan antes y después de la creación/destrucción de la instancia de la clase.
+    </td>
+    <td class="text-center d-md-flex flex-nowrap align-items-center">
+    <i class="fas fa-check  text-primary"></i>
+    <span class="ml-2 d-none d-md-inline">Correcto</span>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <span class="font-weight-normal">El motor de JUnit 5:
+    </span>
+    </td>
+    <td class="answers">
+    Se encarga de crear, ejecutar y eliminar una instancia de la clase por cada método @Test.
+    </td>
+    <td class="text-center d-md-flex flex-nowrap align-items-center">
+    <i class="fas fa-check  text-primary"></i>
+    <span class="ml-2 d-none d-md-inline">Correcto</span>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <span class="font-weight-normal">JUnit 5…
+    </span>
+    </td>
+    <td class="answers">
+    Permite escribir y ejecutar tests unitarios.
+    </td>
+    <td class="text-center d-md-flex flex-nowrap align-items-center">
+    <i class="fas fa-check  text-primary"></i>
+    <span class="ml-2 d-none d-md-inline">Correcto</span>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <span class="font-weight-normal">El método assertEquals…
+    </span>
+    </td>
+    <td class="answers">
+    Se basa en el método equals del tipo de objeto indicado.
+    </td>
+    <td class="text-center d-md-flex flex-nowrap align-items-center">
+    <i class="fas fa-check  text-primary"></i>
+    <span class="ml-2 d-none d-md-inline">Correcto</span>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <span class="font-weight-normal">Las clases anidadas:
+    </span>
+    </td>
+    <td class="answers">
+    Permiten organizar los tests por diferentes criterios: funcionalidad, condicionalidad...
+    </td>
+    <td class="text-center d-md-flex flex-nowrap align-items-center">
+    <i class="fas fa-check  text-primary"></i>
+    <span class="ml-2 d-none d-md-inline">Correcto</span>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <span class="font-weight-normal">El método assertAll():
+    </span>
+    </td>
+    <td class="answers">
+    Informa de los fallos de varios assert, dónde se producen y por qué.
+    </td>
+    <td class="text-center d-md-flex flex-nowrap align-items-center">
+    <i class="fas fa-check  text-primary"></i>
+    <span class="ml-2 d-none d-md-inline">Correcto</span>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <span class="font-weight-normal">Podemos habilitar o no un test en base a las properties de la JVM:
+    </span>
+    </td>
+    <td class="answers">
+    A través de la anotación @EnabledIfSystemProperty(named=””, matches=””)
+    </td>
+    <td class="text-center d-md-flex flex-nowrap align-items-center">
+    <i class="fas fa-check  text-primary"></i>
+    <span class="ml-2 d-none d-md-inline">Correcto</span>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <span class="font-weight-normal">Si un método lanza excepciones controladas:
+    </span>
+    </td>
+    <td class="answers">
+    Todas las excepciones pueden ser probadas con assertThrows()
+    </td>
+    <td class="text-center d-md-flex flex-nowrap align-items-center">
+    <i class="fas fa-times fa-lg text-secondary"></i>
+    <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <span class="font-weight-normal">Las anotaciones “@Enabled…” a nivel de método:
+    </span>
+    </td>
+    <td class="answers">
+    Presentan su misma variante con “@Disabled…”
+    </td>
+    <td class="text-center d-md-flex flex-nowrap align-items-center">
+    <i class="fas fa-check  text-primary"></i>
+    <span class="ml-2 d-none d-md-inline">Correcto</span>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <span class="font-weight-normal">La anotación en una prueba unitaria @EnabledOnOS(OS.WINDOWS):
+    </span>
+    </td>
+    <td class="answers">
+    Ejecuta el test si el sistema operativo es Windows.
+    </td>
+    <td class="text-center d-md-flex flex-nowrap align-items-center">
+    <i class="fas fa-check  text-primary"></i>
+    <span class="ml-2 d-none d-md-inline">Correcto</span>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <span class="font-weight-normal">Las pruebas unitarias…
+    </span>
+    </td>
+    <td class="answers">
+    Prueban una única funcionalidad de un método y de forma aislada con el resto del código.
+    </td>
+    <td class="text-center d-md-flex flex-nowrap align-items-center">
+    <i class="fas fa-check  text-primary"></i>
+    <span class="ml-2 d-none d-md-inline">Correcto</span>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <span class="font-weight-normal">Para probar en JUnit 5…
+    </span>
+    </td>
+    <td class="answers">
+    Se utilizan métodos estáticos Assert.
+    </td>
+    <td class="text-center d-md-flex flex-nowrap align-items-center">
+    <i class="fas fa-check  text-primary"></i>
+    <span class="ml-2 d-none d-md-inline">Correcto</span>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <span class="font-weight-normal">Si un test tiene varios asserts:
+    </span>
+    </td>
+    <td class="answers">
+    El test falla si un solo assert falla.
+    </td>
+    <td class="text-center d-md-flex flex-nowrap align-items-center">
+    <i class="fas fa-check  text-primary"></i>
+    <span class="ml-2 d-none d-md-inline">Correcto</span>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <span class="font-weight-normal">Por defecto, la instancia de la clase de test se crea:
+    </span>
+    </td>
+    <td class="answers">
+    Depende de si la anotamos con @TestInstance(Lifecycle.PER_CLASS) o @TestInstance(Lifecycle.PER_METHOD).
+    </td>
+    <td class="text-center d-md-flex flex-nowrap align-items-center">
+    <i class="fas fa-times fa-lg text-secondary"></i>
+    <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+    </td>
+    </tr>
+    </tbody>
+    </table>
+
