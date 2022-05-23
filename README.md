@@ -1,7 +1,20 @@
 # Cursos
-## Descripción
-En este repositorio se encuantran los archivos correspondientes a diversos curso de diversas plataformas
-## Plantilla
+
+**Índice**
+1. [Descripción](#id_descripcion)
+2. [Cursos OpenWabinar](#id_openWabinar)
+3. [Plantilla](#id_plantillas)
+
+
+## Descripción<a name="id_descripcion"></a>
+En este repositorio se encuantran notas y apuntes relacionado con diversos cursos de distintas plataformas
+### Cursos OpenWabinar<a name="id_openWabinar"></a>
+* Curso de JUnit 
+* Curso de Git
+* Curso de Web scraping [Enlace](https://openwebinars.net/academia/portada/web-scraping/ "Curso de Web scraping")
+* Curso de Desarrollo web con Java EE-Jakarta EE
+* Curso de Intrododuction a las estructoras de datos
+## Plantilla<a name="id_plantillas"></a>
 ~~~
     <!-- Primer intento del examen -->
     <!-- Segundo intento del examen -->
