@@ -1,25 +1,17 @@
-<!-- Primer intento del examen -->
 <table class="table table-striped table-borderless">
   <thead>
     <tr>
-      <th class="">
-        Pregunta
-        <a
-          href="javascript:void(0)"
-          onclick="$('.answers.d-none').removeClass('d-none');this.className='d-none'"
-          class="d-none"
-          >Mostrar mis respuestas</a
-        >
-      </th>
+      <th class="">Pregunta</th>
       <th class="answers">Tu respuesta</th>
       <th class="text-center">Resultado</th>
     </tr>
   </thead>
+  <!-- Primer intento del examen -->
   <tbody>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             Descubre la afirmación <b>falsa</b> sobre GIT:
           </h5>
         </span>
@@ -27,15 +19,13 @@
       <td class="answers">GIT tiene una sintaxis muy similar a Subversion</td>
       <td class="text-center d-md-flex flex-nowrap align-items-center">
         <i class="fas fa-times fa-lg text-secondary"></i>
-        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary"
-          >Incorrecto</span
-        >
+        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
       </td>
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             El comando <code>git cherry-pick</code> se utiliza para tomar el
             cambio introducido en un único commit de Git y tratar de volver a
             introducirlo como un nuevo commit en la rama donde estás
@@ -44,8 +34,8 @@
             contiene todos los cambios. Es decir, no me traigo un "pull" de
             todos los archivos, sino solo de los cambios concretos que yo
             picotee (cherry-pick) del <b>commit concreto</b> que yo elija.<br /><br />Ejemplo
-            de formato de uso: <code>git cherry-pick origin/master 5d5bf61</code
-            ><br /><br />¿Cuáles de las siguientes afirmaciones son ciertas?
+            de formato de uso: <code>git cherry-pick origin/master 5d5bf61</code><br /><br />¿Cuáles de las siguientes
+            afirmaciones son ciertas?
           </h5>
         </span>
       </td>
@@ -57,8 +47,8 @@
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             Tengo un Working Directory con los archivos file1, file2 y fileTengo
             algunos commits. Ejecuto un <code>git rm *</code> pero no hago
             commit (por tanto, tengo ese borrado en staging).<br /><br />Si
@@ -82,8 +72,8 @@
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             Las ramas se crean basándonos en otra rama, generalmente master. El
             comando:
             <code>git branch &lt;new_branch&gt; &lt;starting_branch&gt;</code>
@@ -102,45 +92,38 @@
       </td>
       <td class="text-center d-md-flex flex-nowrap align-items-center">
         <i class="fas fa-times fa-lg text-secondary"></i>
-        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary"
-          >Incorrecto</span
-        >
+        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
       </td>
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             Supongamos que acabo de crear un fichero en mi Working Directory
-            llamado new-file.<br /><br />Ejecutamos <code>git add new-file</code
-            ><br /><br />La salida de un <code>git status</code> es:
+            llamado new-file.<br /><br />Ejecutamos <code>git add new-file</code><br /><br />La salida de un
+            <code>git status</code> es:
             <br /><br />
             <pre
-              class="hljs vhdl"
-            ><span class="hljs-keyword">On</span> branch master<br>Your branch <span class="hljs-keyword">is</span> ahead <span class="hljs-keyword">of</span> <span class="hljs-symbol">'origin</span>/master' by <span class="hljs-number">2</span> commits.<br>  (<span class="hljs-keyword">use</span> <span class="hljs-string">"git push"</span> <span class="hljs-keyword">to</span> publish your local commits)<br><br>Changes <span class="hljs-keyword">to</span> be committed:<br>  (<span class="hljs-keyword">use</span> <span class="hljs-string">"git reset HEAD </span><file><span class="hljs-string">..."</span> <span class="hljs-keyword">to</span> unstage)<br><br>        <span class="hljs-keyword">new</span> <span class="hljs-keyword">file</span>:   <span class="hljs-keyword">new</span>-<span class="hljs-keyword">file</span><br></file></pre>
-            <br /><br />Sin querer, ejecuto el comando <code>rm new-file</code
-            ><br /><br />Como nunca he realizado un commit, no tenemos el
+              class="hljs vhdl"><span class="hljs-keyword">On</span> branch master<br>Your branch <span class="hljs-keyword">is</span> ahead <span class="hljs-keyword">of</span> <span class="hljs-symbol">'origin</span>/master' by <span class="hljs-number">2</span> commits.<br>  (<span class="hljs-keyword">use</span> <span class="hljs-string">"git push"</span> <span class="hljs-keyword">to</span> publish your local commits)<br><br>Changes <span class="hljs-keyword">to</span> be committed:<br>  (<span class="hljs-keyword">use</span> <span class="hljs-string">"git reset HEAD </span><file><span class="hljs-string">..."</span> <span class="hljs-keyword">to</span> unstage)<br><br>        <span class="hljs-keyword">new</span> <span class="hljs-keyword">file</span>:   <span class="hljs-keyword">new</span>-<span class="hljs-keyword">file</span><br></file></pre>
+            <br /><br />Sin querer, ejecuto el comando <code>rm new-file</code><br /><br />Como nunca he realizado un
+            commit, no tenemos el
             fichero en el área de confirmación (directorio .git), aunque sí lo
             tengo en el área de staging.
-            <b
-              >¿Con qué comando podría recuperar el fichero que se encuentra en
-              staging no perder mi trabajo?</b
-            ><br />
+            <b>¿Con qué comando podría recuperar el fichero que se encuentra en
+              staging no perder mi trabajo?</b><br />
           </h5>
         </span>
       </td>
       <td class="answers">git checkout -- new-file</td>
       <td class="text-center d-md-flex flex-nowrap align-items-center">
         <i class="fas fa-times fa-lg text-secondary"></i>
-        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary"
-          >Incorrecto</span
-        >
+        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
       </td>
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             Supongamos que creamos un directorio que inicializamos.<br /><br />Imaginemos
             que creamos un archivo <code>README.md</code> y le agregamos
             contenido. <br /><br />Lo agregamos a staging con un
@@ -156,15 +139,13 @@
       <td class="answers">Ninguna de las opciones es correcta.</td>
       <td class="text-center d-md-flex flex-nowrap align-items-center">
         <i class="fas fa-times fa-lg text-secondary"></i>
-        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary"
-          >Incorrecto</span
-        >
+        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
       </td>
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             Si queremos obviar o no considerar ciertos ficheros que cumplan un
             patrón en nuestro Working Directory para que siempre queden en
             estado <b>untracked</b>, y no pasen a <b>staged</b> ni
@@ -181,8 +162,8 @@
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             ¿Qué efecto tendría este comando:
             <code>git push origin :mi-rama</code> ?
           </h5>
@@ -193,15 +174,13 @@
       </td>
       <td class="text-center d-md-flex flex-nowrap align-items-center">
         <i class="fas fa-times fa-lg text-secondary"></i>
-        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary"
-          >Incorrecto</span
-        >
+        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
       </td>
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             ¿Cuáles son las tres secciones principales de un proyecto GIT?
           </h5>
         </span>
@@ -209,15 +188,13 @@
       <td class="answers">Working Directory, Steady Area, directorio .git</td>
       <td class="text-center d-md-flex flex-nowrap align-items-center">
         <i class="fas fa-times fa-lg text-secondary"></i>
-        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary"
-          >Incorrecto</span
-        >
+        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
       </td>
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             ¿Cuáles de las siguientes afirmaciones son verdaderas
             <code>git diff</code> y lanzar <code>git diff --cached</code>?
           </h5>
@@ -237,15 +214,13 @@
       </td>
       <td class="text-center d-md-flex flex-nowrap align-items-center">
         <i class="fas fa-times fa-lg text-secondary"></i>
-        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary"
-          >Incorrecto</span
-        >
+        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
       </td>
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             ¿Cuál es el comando para elegir como herramienta de gestión de
             diferencias de ficheros de git a TKDIFF?
           </h5>
@@ -254,15 +229,13 @@
       <td class="answers">`git diff --c tkdiff`</td>
       <td class="text-center d-md-flex flex-nowrap align-items-center">
         <i class="fas fa-times fa-lg text-secondary"></i>
-        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary"
-          >Incorrecto</span
-        >
+        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
       </td>
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             El comando <code>git reset --hard &lt;hashid&gt;</code> combina los
             efectos que un <code>git checkout</code> y de un
             <code>git reset</code> en un único comando. Esto es peligroso porque
@@ -275,8 +248,7 @@
             Acto seguido, ejecuto <code>git add new-file</code> pero
             inmediatamente después, por error, lanzo un:<br /><br />
             <pre
-              class="hljs gradle"
-            >rm <span class="hljs-keyword">new</span>-<span class="hljs-keyword">file</span></pre>
+              class="hljs gradle">rm <span class="hljs-keyword">new</span>-<span class="hljs-keyword">file</span></pre>
             <br />Sabemos que el fichero lo tenemos en una versión antigua en
             estado confirmado, y que tenemos la versión más reciente en estado
             staging.<br /><br />¿Qué sucedería si lanzo el comando
@@ -293,15 +265,13 @@
       </td>
       <td class="text-center d-md-flex flex-nowrap align-items-center">
         <i class="fas fa-times fa-lg text-secondary"></i>
-        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary"
-          >Incorrecto</span
-        >
+        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
       </td>
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             Tras trabajar en mi proyecto versionado con GIT durante horas, acabo
             de borrar A PROPÓSITO con <code>git rm</code> un fichero que iba
             aprobado en mi última revisión (y en todas las anteriores).<br /><br />¿Con
@@ -314,15 +284,13 @@
       <td class="answers">`git diff`</td>
       <td class="text-center d-md-flex flex-nowrap align-items-center">
         <i class="fas fa-times fa-lg text-secondary"></i>
-        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary"
-          >Incorrecto</span
-        >
+        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
       </td>
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             ¿Cuál o cuales de las siguientes afirmaciones es/son falsa/s?
           </h5>
         </span>
@@ -335,8 +303,8 @@
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             El comando git rebase es básicamente un cherry-pick automatizado.
             Determina una serie de commits y luego los escoge uno a uno en el
             mismo orden en otro lugar.<br /><br />Respecto a un
@@ -353,8 +321,8 @@
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             ¿Alguno de estos comandos permite modificar la salida de logs de
             git? Se pretende obtener el hashid, el nombre del autor de la
             modificación, de la referencia de timestamp de la misma y del texto
@@ -373,8 +341,8 @@
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             Muchas veces, cuando has estado trabajando en una parte de tu
             proyecto, las cosas se encuentran desordenadas y quieres cambiar de
             ramas por un momento para trabajar en algo más. El problema es que
@@ -385,8 +353,8 @@
             las siguientes afirmaciones es cierta respecto al comando
             <code>git stash<code>:</code></code>
           </h5>
-          <code><code> </code></code></span
-        ><code><code> </code></code>
+          <code><code> </code></code>
+        </span><code><code> </code></code>
       </td>
       <td class="answers">
         En cualquier momento de mi proyecto, y en cualquier rama, puedo lanzar
@@ -402,13 +370,13 @@
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             El comando que me permite revertir todos los cambios producidos
             entre la versión más reciente aprobada y las dos anteriores es:
           </h5>
-          <h5></h5
-        ></span>
+          <h5></h5>
+        </span>
       </td>
       <td class="answers">git revert HEAD...HEAD~2</td>
       <td class="text-center d-md-flex flex-nowrap align-items-center">
@@ -418,8 +386,8 @@
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             ¿Con qué comando de git podemos conectarnos a un repositorio remoto
             para trabajar, y traernos su contenido a un directorio vacío de
             trabajo recién creado y en el que me encuentro?
@@ -434,8 +402,8 @@
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             Supongamos que acabo de realizar unos cambios en mí working
             directory. Agrego a staging los ficheros que necesito, y hago
             commit. Justo después de hacerlo, caigo en la cuenta justo después
@@ -454,14 +422,12 @@
       </td>
     </tr>
   </tbody>
-</table>
-<!-- Segundo intento del examen -->
-<table class="table table-striped table-borderless">
+  <!-- Segundo intento del examen -->
   <tbody>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             Git utiliza dos tipos principales de etiquetas: ligeras y anotadas.
             Una etiqueta ligera es un puntero a un <b>commit</b> especifico. Las
             etiquetas anotadas se guardan en la base de datos de Git como
@@ -481,45 +447,38 @@
       </td>
       <td class="text-center d-md-flex flex-nowrap align-items-center">
         <i class="fas fa-times fa-lg text-secondary"></i>
-        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary"
-          >Incorrecto</span
-        >
+        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
       </td>
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             Supongamos que acabo de crear un fichero en mi Working Directory
-            llamado new-file.<br /><br />Ejecutamos <code>git add new-file</code
-            ><br /><br />La salida de un <code>git status</code> es:
+            llamado new-file.<br /><br />Ejecutamos <code>git add new-file</code><br /><br />La salida de un
+            <code>git status</code> es:
             <br /><br />
             <pre
-              class="hljs vhdl"
-            ><span class="hljs-keyword">On</span> branch master<br>Your branch <span class="hljs-keyword">is</span> ahead <span class="hljs-keyword">of</span> <span class="hljs-symbol">'origin</span>/master' by <span class="hljs-number">2</span> commits.<br>  (<span class="hljs-keyword">use</span> <span class="hljs-string">"git push"</span> <span class="hljs-keyword">to</span> publish your local commits)<br><br>Changes <span class="hljs-keyword">to</span> be committed:<br>  (<span class="hljs-keyword">use</span> <span class="hljs-string">"git reset HEAD </span><file><span class="hljs-string">..."</span> <span class="hljs-keyword">to</span> unstage)<br><br>        <span class="hljs-keyword">new</span> <span class="hljs-keyword">file</span>:   <span class="hljs-keyword">new</span>-<span class="hljs-keyword">file</span><br></file></pre>
-            <br /><br />Sin querer, ejecuto el comando <code>rm new-file</code
-            ><br /><br />Como nunca he realizado un commit, no tenemos el
+              class="hljs vhdl"><span class="hljs-keyword">On</span> branch master<br>Your branch <span class="hljs-keyword">is</span> ahead <span class="hljs-keyword">of</span> <span class="hljs-symbol">'origin</span>/master' by <span class="hljs-number">2</span> commits.<br>  (<span class="hljs-keyword">use</span> <span class="hljs-string">"git push"</span> <span class="hljs-keyword">to</span> publish your local commits)<br><br>Changes <span class="hljs-keyword">to</span> be committed:<br>  (<span class="hljs-keyword">use</span> <span class="hljs-string">"git reset HEAD </span><file><span class="hljs-string">..."</span> <span class="hljs-keyword">to</span> unstage)<br><br>        <span class="hljs-keyword">new</span> <span class="hljs-keyword">file</span>:   <span class="hljs-keyword">new</span>-<span class="hljs-keyword">file</span><br></file></pre>
+            <br /><br />Sin querer, ejecuto el comando <code>rm new-file</code><br /><br />Como nunca he realizado un
+            commit, no tenemos el
             fichero en el área de confirmación (directorio .git), aunque sí lo
             tengo en el área de staging.
-            <b
-              >¿Con qué comando podría recuperar el fichero que se encuentra en
-              staging no perder mi trabajo?</b
-            ><br />
+            <b>¿Con qué comando podría recuperar el fichero que se encuentra en
+              staging no perder mi trabajo?</b><br />
           </h5>
         </span>
       </td>
       <td class="answers">git revert new-file</td>
       <td class="text-center d-md-flex flex-nowrap align-items-center">
         <i class="fas fa-times fa-lg text-secondary"></i>
-        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary"
-          >Incorrecto</span
-        >
+        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
       </td>
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             Muchas veces, cuando has estado trabajando en una parte de tu
             proyecto, las cosas se encuentran desordenadas y quieres cambiar de
             ramas por un momento para trabajar en algo más. El problema es que
@@ -530,8 +489,8 @@
             las siguientes afirmaciones es cierta respecto al comando
             <code>git stash<code>:</code></code>
           </h5>
-          <code><code> </code></code></span
-        ><code><code> </code></code>
+          <code><code> </code></code>
+        </span><code><code> </code></code>
       </td>
       <td class="answers">
         En cualquier momento de mi proyecto, y en cualquier rama, puedo lanzar
@@ -547,8 +506,8 @@
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             ¿Qué efecto tendría el comando: <code>git branch -D mi-rama</code> ?
           </h5>
         </span>
@@ -556,15 +515,13 @@
       <td class="answers">Borraría la rama remota mi-rama.</td>
       <td class="text-center d-md-flex flex-nowrap align-items-center">
         <i class="fas fa-times fa-lg text-secondary"></i>
-        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary"
-          >Incorrecto</span
-        >
+        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
       </td>
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             El comando <code>git reset --hard &lt;hashid&gt;</code> combina los
             efectos que un <code>git checkout</code> y de un
             <code>git reset</code> en un único comando. Esto es peligroso porque
@@ -577,8 +534,7 @@
             Acto seguido, ejecuto <code>git add new-file</code> pero
             inmediatamente después, por error, lanzo un:<br /><br />
             <pre
-              class="hljs gradle"
-            >rm <span class="hljs-keyword">new</span>-<span class="hljs-keyword">file</span></pre>
+              class="hljs gradle">rm <span class="hljs-keyword">new</span>-<span class="hljs-keyword">file</span></pre>
             <br />Sabemos que el fichero lo tenemos en una versión antigua en
             estado confirmado, y que tenemos la versión más reciente en estado
             staging.<br /><br />¿Qué sucedería si lanzo el comando
@@ -599,8 +555,8 @@
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             https://github.com/sharkdp/bat ¿con qué comando puedo listar las
             ramas?
           </h5>
@@ -609,15 +565,13 @@
       <td class="answers">`git list --branches`</td>
       <td class="text-center d-md-flex flex-nowrap align-items-center">
         <i class="fas fa-times fa-lg text-secondary"></i>
-        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary"
-          >Incorrecto</span
-        >
+        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
       </td>
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             ¿Cuál de las siguientes afirmaciones acerca del comando
             <code>git log</code> es cierta?
           </h5>
@@ -631,8 +585,8 @@
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             ¿Cuáles de las siguientes afirmaciones acerca del comando
             <code>git blame</code> son FALSAS?<br /><br />
           </h5>
@@ -644,15 +598,13 @@
       </td>
       <td class="text-center d-md-flex flex-nowrap align-items-center">
         <i class="fas fa-times fa-lg text-secondary"></i>
-        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary"
-          >Incorrecto</span
-        >
+        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
       </td>
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             El comando <code>git cherry-pick</code> se utiliza para tomar el
             cambio introducido en un único commit de Git y tratar de volver a
             introducirlo como un nuevo commit en la rama donde estás
@@ -661,8 +613,8 @@
             contiene todos los cambios. Es decir, no me traigo un "pull" de
             todos los archivos, sino solo de los cambios concretos que yo
             picotee (cherry-pick) del <b>commit concreto</b> que yo elija.<br /><br />Ejemplo
-            de formato de uso: <code>git cherry-pick origin/master 5d5bf61</code
-            ><br /><br />¿Cuáles de las siguientes afirmaciones son ciertas?
+            de formato de uso: <code>git cherry-pick origin/master 5d5bf61</code><br /><br />¿Cuáles de las siguientes
+            afirmaciones son ciertas?
           </h5>
         </span>
       </td>
@@ -674,8 +626,8 @@
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             ¿Cuál o cuales de las siguientes afirmaciones es/son falsa/s?
           </h5>
         </span>
@@ -688,8 +640,8 @@
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             ¿Qué efecto tendría este comando:
             <code>git push origin :mi-rama</code> ?
           </h5>
@@ -701,15 +653,13 @@
       </td>
       <td class="text-center d-md-flex flex-nowrap align-items-center">
         <i class="fas fa-times fa-lg text-secondary"></i>
-        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary"
-          >Incorrecto</span
-        >
+        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
       </td>
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             ¿Con qué comando puedo crear la rama nueva_rama?
           </h5>
         </span>
@@ -717,15 +667,13 @@
       <td class="answers">`git branch nueva_rama`</td>
       <td class="text-center d-md-flex flex-nowrap align-items-center">
         <i class="fas fa-times fa-lg text-secondary"></i>
-        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary"
-          >Incorrecto</span
-        >
+        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
       </td>
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             Si queremos obviar o no considerar ciertos ficheros que cumplan un
             patrón en nuestro Working Directory para que siempre queden en
             estado <b>untracked</b>, y no pasen a <b>staged</b> ni
@@ -742,8 +690,8 @@
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             ¿Cuáles de las siguientes afirmaciones son verdaderas
             <code>git diff</code> y lanzar <code>git diff --cached</code>?
           </h5>
@@ -756,15 +704,13 @@
       </td>
       <td class="text-center d-md-flex flex-nowrap align-items-center">
         <i class="fas fa-times fa-lg text-secondary"></i>
-        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary"
-          >Incorrecto</span
-        >
+        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
       </td>
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             Tras trabajar en mi proyecto versionado con GIT durante horas, acabo
             de borrar A PROPÓSITO con <code>git rm</code> un fichero que iba
             aprobado en mi última revisión (y en todas las anteriores).<br /><br />¿Con
@@ -782,8 +728,8 @@
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             ¿Cuáles son las tres secciones principales de un proyecto GIT?
           </h5>
         </span>
@@ -796,8 +742,8 @@
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             Tengo el hashid de una revisión o commit concreto gracias a
             <code>git log</code>. Quiero ver todos los cambios en todos los
             ficheros de esa revisión. ¿Qué comando/s puedo usar para saberlo?
@@ -807,15 +753,13 @@
       <td class="answers">`git diff &lt;hashid&gt;`</td>
       <td class="text-center d-md-flex flex-nowrap align-items-center">
         <i class="fas fa-times fa-lg text-secondary"></i>
-        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary"
-          >Incorrecto</span
-        >
+        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
       </td>
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             Si quisiéramos DESHACER o enmendar el último commit hecho porque en
             dicho cambio se me olvidó agregar algún fichero o quizás cambiar el
             mensaje de commit... <br /><br />¿Qué comando sería el más apropiado
@@ -826,15 +770,13 @@
       <td class="answers">`git checkout -- &lt;hash_id&gt;`</td>
       <td class="text-center d-md-flex flex-nowrap align-items-center">
         <i class="fas fa-times fa-lg text-secondary"></i>
-        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary"
-          >Incorrecto</span
-        >
+        <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
       </td>
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             Supongamos que hemos creado un par de archivos en nuestro Working
             Directory. Aún no los hemos agregado a la Staging Area con el
             comando <code>git add</code>. Por tanto, se encuentran en estado
@@ -853,8 +795,8 @@
     </tr>
     <tr>
       <td>
-        <span class="font-weight-normal"
-          ><h5 align="justify">
+        <span class="font-weight-normal">
+          <h5 align="justify">
             ¿Cómo puedo subir los cambios efectuados en mi rama remota de
             repositorio con el que me he vinculado vía
             <code>git remote add origin <lo-que-sea></lo-que-sea></code> o vía

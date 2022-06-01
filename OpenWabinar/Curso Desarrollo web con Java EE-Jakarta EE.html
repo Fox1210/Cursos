@@ -1,276 +1,288 @@
-<!-- Primer intento del examen -->
 <table class="table table-striped table-borderless">
     <thead>
-    <tr>
-    <th class="">Pregunta
-    <a href="javascript:void(0)" onclick="$('.answers.d-none').removeClass('d-none');this.className='d-none'" class="float-right text-info font-weight-normal">Mostrar mis respuestas</a>
-    </th>
-    <th class="answers d-none">Tu respuesta</th>
-    <th class="text-center">Resultado</th>
-    </tr>
+        <tr>
+            <th class="">Pregunta</th>
+            <th class="answers d-none">Tu respuesta</th>
+            <th class="text-center">Resultado</th>
+        </tr>
     </thead>
+    <!-- Primer intento del examen -->
     <tbody>
-    <tr>
-    <td>
-    <span class="font-weight-normal">Las siglas DAO...
-    </span>
-    </td>
-    <td class="answers d-none">
-    Son las siglas de Data Access Object y es un patrón que permite desacoplar la capa de vista del resto de la aplicación.
-    </td>
-    <td class="text-center d-md-flex flex-nowrap align-items-center">
-    <i class="fas fa-times fa-lg text-secondary"></i>
-    <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
-    </td>
-    </tr>
-    <tr>
-    <td>
-    <span class="font-weight-normal">Jakarta Servlet se encuentra en el itinerario de paquetes...
-    </span>
-    </td>
-    <td class="answers d-none">
-    Se encuentra en el itinerario de paquetes java.servlet.*
-    </td>
-    <td class="text-center d-md-flex flex-nowrap align-items-center">
-    <i class="fas fa-times fa-lg text-secondary"></i>
-    <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
-    </td>
-    </tr>
-    <tr>
-    <td>
-    <span class="font-weight-normal">Jakarta Persistence API (JPA)...
-    </span>
-    </td>
-    <td class="answers d-none">
-    Es una especificación API para creación de controladores REST bajo la metodología CRUD.
-    </td>
-    <td class="text-center d-md-flex flex-nowrap align-items-center">
-    <i class="fas fa-times fa-lg text-secondary"></i>
-    <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
-    </td>
-    </tr>
-    <tr>
-    <td>
-    <span class="font-weight-normal">JSF...
-    </span>
-    </td>
-    <td class="answers d-none">
-    Es una API que define un framework MVC para la creación de interfaces de usuario mediante la tecnología facelets.
-    </td>
-    <td class="text-center d-md-flex flex-nowrap align-items-center">
-    <i class="fas fa-check  text-primary"></i>
-    <span class="ml-2 d-none d-md-inline">Correcto</span>
-    </td>
-    </tr>
-    <tr>
-    <td>
-    <span class="font-weight-normal">Jakarta Persistence API...
-    </span>
-    </td>
-    <td class="answers d-none">
-    Se encuentra en el itinerario de paquetes jakarta.persistence.*
-    </td>
-    <td class="text-center d-md-flex flex-nowrap align-items-center">
-    <i class="fas fa-check  text-primary"></i>
-    <span class="ml-2 d-none d-md-inline">Correcto</span>
-    </td>
-    </tr>
-    <tr>
-    <td>
-    <span class="font-weight-normal">Esquema de pasos con JDBC...
-    </span>
-    </td>
-    <td class="answers d-none">
-    Para realizar operaciones con JDBC se realizan los pasos: crear una instancia EntityManagerFactory, crear una instancia EntityManager y ejecutar el método CRUD necesario.
-    </td>
-    <td class="text-center d-md-flex flex-nowrap align-items-center">
-    <i class="fas fa-times fa-lg text-secondary"></i>
-    <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
-    </td>
-    </tr>
-    <tr>
-    <td>
-    <span class="font-weight-normal">Configuración JPA Hibernate...
-    </span>
-    </td>
-    <td class="answers d-none">
-    La configuración de JPA se establece por medio de la anotación @ApplicationPath.
-    </td>
-    <td class="text-center d-md-flex flex-nowrap align-items-center">
-    <i class="fas fa-times fa-lg text-secondary"></i>
-    <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
-    </td>
-    </tr>
-    <tr>
-    <td>
-    <span class="font-weight-normal">Configurar un proyecto con servlets...
-    </span>
-    </td>
-    <td class="answers d-none">
-    Para configurar un proyecto con servlets es necesario convertirlo a proyecto web y usar una implementación de Jakarta Servlet, la cuál viene incorporada en la biblioteca estándar de clases java.
-    </td>
-    <td class="text-center d-md-flex flex-nowrap align-items-center">
-    <i class="fas fa-times fa-lg text-secondary"></i>
-    <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
-    </td>
-    </tr>
-    <tr>
-    <td>
-    <span class="font-weight-normal">Apache Tomcat y los IDEs...
-    </span>
-    </td>
-    <td class="answers d-none">
-    Apache tomcat no se integra con IDEs, es necesario empaquetar la aplicación en formato jar para desplegarla sobre Apache tomcat manualmente para ejecutarla.
-    </td>
-    <td class="text-center d-md-flex flex-nowrap align-items-center">
-    <i class="fas fa-times fa-lg text-secondary"></i>
-    <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
-    </td>
-    </tr>
-    <tr>
-    <td>
-    <span class="font-weight-normal">Los métodos http en una aplicación JAX-RS...
-    </span>
-    </td>
-    <td class="answers d-none">
-    Se pueden procesar peticiones de diferentes métodos http mediante las anotaciones: @Retrieve, @Create, @Update, @Delete.
-    </td>
-    <td class="text-center d-md-flex flex-nowrap align-items-center">
-    <i class="fas fa-times fa-lg text-secondary"></i>
-    <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
-    </td>
-    </tr>
-    <tr>
-    <td>
-    <span class="font-weight-normal">La operación actualizar con JDBC...
-    </span>
-    </td>
-    <td class="answers d-none">
-    Puede llevarse a cabo con el método updateRow() o mediante el método executeInsert y una sentencia SQL de tipo UPDATE.
-    </td>
-    <td class="text-center d-md-flex flex-nowrap align-items-center">
-    <i class="fas fa-times fa-lg text-secondary"></i>
-    <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
-    </td>
-    </tr>
-    <tr>
-    <td>
-    <span class="font-weight-normal">La anotación @OneToMany de JPA...
-    </span>
-    </td>
-    <td class="answers d-none">
-    Es una asociación de uno a muchos en la que una entidad tiene una unidad de otra entidad como atributo lista.
-    </td>
-    <td class="text-center d-md-flex flex-nowrap align-items-center">
-    <i class="fas fa-check  text-primary"></i>
-    <span class="ml-2 d-none d-md-inline">Correcto</span>
-    </td>
-    </tr>
-    <tr>
-    <td>
-    <span class="font-weight-normal">La operación crear con JDBC...
-    </span>
-    </td>
-    <td class="answers d-none">
-    Puede llevarse a cabo con el método insertRow() o mediante el método executeUpdate y una sentencia SQL de tipo UPDATE.
-    </td>
-    <td class="text-center d-md-flex flex-nowrap align-items-center">
-    <i class="fas fa-times fa-lg text-secondary"></i>
-    <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
-    </td>
-    </tr>
-    <tr>
-    <td>
-    <span class="font-weight-normal">Hibernate...
-    </span>
-    </td>
-    <td class="answers d-none">
-    Es un framework de persistencia que proporciona múltiples funcionalidades, entre ellas la implementación de la API JPA.
-    </td>
-    <td class="text-center d-md-flex flex-nowrap align-items-center">
-    <i class="fas fa-check  text-primary"></i>
-    <span class="ml-2 d-none d-md-inline">Correcto</span>
-    </td>
-    </tr>
-    <tr>
-    <td>
-    <span class="font-weight-normal">Los métodos http en una aplicación JAX-RS...
-    </span>
-    </td>
-    <td class="answers d-none">
-    Se pueden procesar peticiones de diferentes métodos http mediante las anotaciones: @GetMapping, @PostMapping, @PutMapping, @DeleteMapping.
-    </td>
-    <td class="text-center d-md-flex flex-nowrap align-items-center">
-    <i class="fas fa-times fa-lg text-secondary"></i>
-    <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
-    </td>
-    </tr>
-    <tr>
-    <td>
-    <span class="font-weight-normal">JSP...
-    </span>
-    </td>
-    <td class="answers d-none">
-    Es una implementación que permite añadir código java dentro de código html o xml.
-    </td>
-    <td class="text-center d-md-flex flex-nowrap align-items-center">
-    <i class="fas fa-times fa-lg text-secondary"></i>
-    <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
-    </td>
-    </tr>
-    <tr>
-    <td>
-    <span class="font-weight-normal">JSTL...
-    </span>
-    </td>
-    <td class="answers d-none">
-    JSTL extiende la especificación JSP proporcionando etiquetas similares al código html/xml con el fin de reducir la cantidad de código java en los archivos jsp.
-    </td>
-    <td class="text-center d-md-flex flex-nowrap align-items-center">
-    <i class="fas fa-check  text-primary"></i>
-    <span class="ml-2 d-none d-md-inline">Correcto</span>
-    </td>
-    </tr>
-    <tr>
-    <td>
-    <span class="font-weight-normal">La operación borrar...
-    </span>
-    </td>
-    <td class="answers d-none">
-    Puede llevarse a cabo con el método delete() o mediante el método executeUpdate y una sentencia SQL de tipo DELETE.
-    </td>
-    <td class="text-center d-md-flex flex-nowrap align-items-center">
-    <i class="fas fa-times fa-lg text-secondary"></i>
-    <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
-    </td>
-    </tr>
-    <tr>
-    <td>
-    <span class="font-weight-normal">Para añadir datos a una petición desde un Servlet se utiliza el método:
-    </span>
-    </td>
-    <td class="answers d-none">
-    El método response.setParameter()
-    </td>
-    <td class="text-center d-md-flex flex-nowrap align-items-center">
-    <i class="fas fa-times fa-lg text-secondary"></i>
-    <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
-    </td>
-    </tr>
-    <tr>
-    <td>
-    <span class="font-weight-normal">Entidades JPA...
-    </span>
-    </td>
-    <td class="answers d-none">
-    Las entidades JPA son clases java y cada una representa una fila de una tabla en el modelo de datos relacional de base de datos.
-    </td>
-    <td class="text-center d-md-flex flex-nowrap align-items-center">
-    <i class="fas fa-times fa-lg text-secondary"></i>
-    <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
-    </td>
-    </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">Las siglas DAO...
+                </span>
+            </td>
+            <td class="answers d-none">
+                Son las siglas de Data Access Object y es un patrón que permite desacoplar la capa de vista del resto de
+                la aplicación.
+            </td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-times fa-lg text-secondary"></i>
+                <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">Jakarta Servlet se encuentra en el itinerario de paquetes...
+                </span>
+            </td>
+            <td class="answers d-none">
+                Se encuentra en el itinerario de paquetes java.servlet.*
+            </td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-times fa-lg text-secondary"></i>
+                <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">Jakarta Persistence API (JPA)...
+                </span>
+            </td>
+            <td class="answers d-none">
+                Es una especificación API para creación de controladores REST bajo la metodología CRUD.
+            </td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-times fa-lg text-secondary"></i>
+                <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">JSF...
+                </span>
+            </td>
+            <td class="answers d-none">
+                Es una API que define un framework MVC para la creación de interfaces de usuario mediante la tecnología
+                facelets.
+            </td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-check  text-primary"></i>
+                <span class="ml-2 d-none d-md-inline">Correcto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">Jakarta Persistence API...
+                </span>
+            </td>
+            <td class="answers d-none">
+                Se encuentra en el itinerario de paquetes jakarta.persistence.*
+            </td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-check  text-primary"></i>
+                <span class="ml-2 d-none d-md-inline">Correcto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">Esquema de pasos con JDBC...
+                </span>
+            </td>
+            <td class="answers d-none">
+                Para realizar operaciones con JDBC se realizan los pasos: crear una instancia EntityManagerFactory,
+                crear una instancia EntityManager y ejecutar el método CRUD necesario.
+            </td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-times fa-lg text-secondary"></i>
+                <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">Configuración JPA Hibernate...
+                </span>
+            </td>
+            <td class="answers d-none">
+                La configuración de JPA se establece por medio de la anotación @ApplicationPath.
+            </td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-times fa-lg text-secondary"></i>
+                <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">Configurar un proyecto con servlets...
+                </span>
+            </td>
+            <td class="answers d-none">
+                Para configurar un proyecto con servlets es necesario convertirlo a proyecto web y usar una
+                implementación de Jakarta Servlet, la cuál viene incorporada en la biblioteca estándar de clases java.
+            </td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-times fa-lg text-secondary"></i>
+                <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">Apache Tomcat y los IDEs...
+                </span>
+            </td>
+            <td class="answers d-none">
+                Apache tomcat no se integra con IDEs, es necesario empaquetar la aplicación en formato jar para
+                desplegarla sobre Apache tomcat manualmente para ejecutarla.
+            </td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-times fa-lg text-secondary"></i>
+                <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">Los métodos http en una aplicación JAX-RS...
+                </span>
+            </td>
+            <td class="answers d-none">
+                Se pueden procesar peticiones de diferentes métodos http mediante las anotaciones: @Retrieve, @Create,
+                @Update, @Delete.
+            </td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-times fa-lg text-secondary"></i>
+                <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">La operación actualizar con JDBC...
+                </span>
+            </td>
+            <td class="answers d-none">
+                Puede llevarse a cabo con el método updateRow() o mediante el método executeInsert y una sentencia SQL
+                de tipo UPDATE.
+            </td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-times fa-lg text-secondary"></i>
+                <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">La anotación @OneToMany de JPA...
+                </span>
+            </td>
+            <td class="answers d-none">
+                Es una asociación de uno a muchos en la que una entidad tiene una unidad de otra entidad como atributo
+                lista.
+            </td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-check  text-primary"></i>
+                <span class="ml-2 d-none d-md-inline">Correcto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">La operación crear con JDBC...
+                </span>
+            </td>
+            <td class="answers d-none">
+                Puede llevarse a cabo con el método insertRow() o mediante el método executeUpdate y una sentencia SQL
+                de tipo UPDATE.
+            </td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-times fa-lg text-secondary"></i>
+                <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">Hibernate...
+                </span>
+            </td>
+            <td class="answers d-none">
+                Es un framework de persistencia que proporciona múltiples funcionalidades, entre ellas la implementación
+                de la API JPA.
+            </td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-check  text-primary"></i>
+                <span class="ml-2 d-none d-md-inline">Correcto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">Los métodos http en una aplicación JAX-RS...
+                </span>
+            </td>
+            <td class="answers d-none">
+                Se pueden procesar peticiones de diferentes métodos http mediante las anotaciones: @GetMapping,
+                @PostMapping, @PutMapping, @DeleteMapping.
+            </td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-times fa-lg text-secondary"></i>
+                <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">JSP...
+                </span>
+            </td>
+            <td class="answers d-none">
+                Es una implementación que permite añadir código java dentro de código html o xml.
+            </td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-times fa-lg text-secondary"></i>
+                <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">JSTL...
+                </span>
+            </td>
+            <td class="answers d-none">
+                JSTL extiende la especificación JSP proporcionando etiquetas similares al código html/xml con el fin de
+                reducir la cantidad de código java en los archivos jsp.
+            </td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-check  text-primary"></i>
+                <span class="ml-2 d-none d-md-inline">Correcto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">La operación borrar...
+                </span>
+            </td>
+            <td class="answers d-none">
+                Puede llevarse a cabo con el método delete() o mediante el método executeUpdate y una sentencia SQL de
+                tipo DELETE.
+            </td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-times fa-lg text-secondary"></i>
+                <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">Para añadir datos a una petición desde un Servlet se utiliza el método:
+                </span>
+            </td>
+            <td class="answers d-none">
+                El método response.setParameter()
+            </td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-times fa-lg text-secondary"></i>
+                <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">Entidades JPA...
+                </span>
+            </td>
+            <td class="answers d-none">
+                Las entidades JPA son clases java y cada una representa una fila de una tabla en el modelo de datos
+                relacional de base de datos.
+            </td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-times fa-lg text-secondary"></i>
+                <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+            </td>
+        </tr>
     </tbody>
-    </table>
-<!-- Segundo intento del examen -->
-<!-- Tercer intento del examen -->
+    <!-- Segundo intento del examen -->
+    <!-- Tercer intento del examen -->
+</table>
