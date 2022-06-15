@@ -1,0 +1,293 @@
+<table class="table table-striped table-borderless">
+    <thead>
+        <tr>
+            <th class="">Pregunta</th>
+            <th class="answers d-none">Tu respuesta</th>
+            <th class="text-center">Resultado</th>
+        </tr>
+    </thead>
+    <!-- Primer intento del examen -->
+    <tbody>
+        <tr>
+            <td>
+                <span class="font-weight-normal">El sistema gestor de base de datos MySQL:
+                </span>
+            </td>
+            <td class="answers d-none">Todas son correctas</td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-times fa-lg text-secondary"></i>
+                <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">Considerando las siguientes consultas SQL:
+                </span>
+                <div class="code text-left px-2">
+                    <pre
+                        class="mx-auto font-weight-bold hljs n1ql"><code class="lang-bash"><span class="hljs-keyword">SELECT</span> * <span class="hljs-keyword">FROM</span> empleados<br>ORDER <span class="hljs-keyword">BY</span> nombre_empl<br>;<br><br><span class="hljs-keyword">SELECT</span> id_empleado, nombre_empl <span class="hljs-keyword">FROM</span> empleados<br>ORDER <span class="hljs-keyword">BY</span> nombre_empl <span class="hljs-keyword">ASC</span><br>;</code></pre>
+                </div>
+            </td>
+            <td class="answers d-none">
+                Ambas devolverían el mismo número de registros, pero con una ordenación
+                distinta
+            </td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-times fa-lg text-secondary"></i>
+                <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">Mediante phpMyAdmin </span>
+            </td>
+            <td class="answers d-none">Todas son ciertas</td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-times fa-lg text-secondary"></i>
+                <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">Las consultas de tipo UNION: </span>
+            </td>
+            <td class="answers d-none">Todas son correctas</td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-check text-primary"></i>
+                <span class="ml-2 d-none d-md-inline">Correcto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">En cuanto a las funciones escalares como por ejemplo CONCAT:
+                </span>
+            </td>
+            <td class="answers d-none">
+                Algunas comparten nombre y sintaxis, aunque otras son exclusivas o
+                pueden diferir en su sintaxis.
+            </td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-check text-primary"></i>
+                <span class="ml-2 d-none d-md-inline">Correcto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">Las siguientes consultas SQL del tipo JOIN:
+                </span>
+                <div class="code text-left px-2">
+                    <pre
+                        class="mx-auto font-weight-bold hljs routeros"><code class="lang-bash">SELECT first_name, last_name, address<br>FROM<span class="hljs-built_in"> customer </span>t1 INNER JOIN<span class="hljs-built_in"> address </span>t2<br>ON t1.address_id = t2.address_id<br>;<br><br>SELECT <span class="hljs-number">*</span><br><span class="hljs-number">F</span>ROM<span class="hljs-built_in"> customer </span>c JOIN<span class="hljs-built_in"> address </span>a<br>ON c.address_id = a.address_id<br>;</code></pre>
+                </div>
+            </td>
+            <td class="answers d-none">Todas son correctas</td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-times fa-lg text-secondary"></i>
+                <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">La base de datos MariaDB </span>
+            </td>
+            <td class="answers d-none">
+                Es completamente gratuita y de código abierto
+            </td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-times fa-lg text-secondary"></i>
+                <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">Las siguientes consultas SQL ejecutadas sobre la misma tabla
+                    empleados:
+                </span>
+                <div class="code text-left px-2">
+                    <pre
+                        class="mx-auto font-weight-bold hljs n1ql"><code class="lang-bash"><span class="hljs-keyword">SELECT</span> *<br><span class="hljs-keyword">FROM</span> empleados<br>WHERE <span class="hljs-number">1</span><br><span class="hljs-keyword">ORDER</span> <span class="hljs-keyword">BY</span> apellido, nombre<br>;<br><span class="hljs-keyword">SELECT</span> *<br><span class="hljs-keyword">FROM</span> empleados<br>ORDER <span class="hljs-keyword">BY</span> apellido, nombre <span class="hljs-keyword">ASC</span><br>;</code></pre>
+                </div>
+            </td>
+            <td class="answers d-none">Presentan errores de sintaxis</td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-times fa-lg text-secondary"></i>
+                <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">PostgreSQL </span>
+            </td>
+            <td class="answers d-none">
+                Es un sistema de gestión de base de datos de código abierto (Open
+                Source) y gratuito
+            </td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-check text-primary"></i>
+                <span class="ml-2 d-none d-md-inline">Correcto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">En cuanto a la sintaxis del lenguaje SQL
+                </span>
+            </td>
+            <td class="answers d-none">
+                Aunque se pueden estructurar las filas libremente se deben terminar las
+                sentencias mediante “;”
+            </td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-check text-primary"></i>
+                <span class="ml-2 d-none d-md-inline">Correcto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">En la cláusula ORDER BY de una consulta SQL:
+                </span>
+            </td>
+            <td class="answers d-none">
+                Siempre se debe especificar el orden en el caso descendiente pero el
+                orden ascendiente se entiende por defecto
+            </td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-check text-primary"></i>
+                <span class="ml-2 d-none d-md-inline">Correcto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">En una base de datos, una vista:
+                </span>
+            </td>
+            <td class="answers d-none">Es sinónimo de formulario</td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-times fa-lg text-secondary"></i>
+                <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">Las siguientes consultas SQL ejecutadas sobre la misma tabla
+                    empleados:
+                </span>
+                <div class="code text-left px-2">
+                    <pre
+                        class="mx-auto font-weight-bold hljs n1ql"><code class="lang-bash"><span class="hljs-keyword">SELECT</span> *<br><span class="hljs-keyword">FROM</span> empleados<br>WHERE salario_anual <span class="hljs-keyword">BETWEEN</span> <span class="hljs-number">20000</span> <span class="hljs-keyword">AND</span> <span class="hljs-number">30000</span><br>;<br><span class="hljs-keyword">SELECT</span> *<br><span class="hljs-keyword">FROM</span> empleados<br>WHERE salario_anual &gt; <span class="hljs-number">20000</span> <span class="hljs-keyword">AND</span> salario_anual &lt; <span class="hljs-number">30000</span><br>;</code></pre>
+                </div>
+            </td>
+            <td class="answers d-none">Son equivalentes</td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-times fa-lg text-secondary"></i>
+                <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">Las siguientes consultas SQL ejecutadas sobre la misma tabla
+                    empleados:
+                </span>
+                <div class="code text-left px-2">
+                    <pre
+                        class="mx-auto font-weight-bold hljs sql"><code class="lang-bash"><span class="hljs-keyword">SELECT</span> *<br><span class="hljs-keyword">FROM</span> empleados<br>WHERE <span class="hljs-keyword">NOT</span> apellido <span class="hljs-keyword">LIKE</span> <span class="hljs-string">'GARCÍA'</span><br><span class="hljs-keyword">ORDER</span> <span class="hljs-keyword">BY</span> apellido, nombre<br>;<br><span class="hljs-keyword">SELECT</span> *<br><span class="hljs-keyword">FROM</span> empleados <br><span class="hljs-keyword">WHERE</span> apellido &lt;&gt; <span class="hljs-string">'GARCÍA'</span><br><span class="hljs-keyword">ORDER</span> <span class="hljs-keyword">BY</span> apellido, nombre <span class="hljs-keyword">ASC</span><br>;</code></pre>
+                </div>
+            </td>
+            <td class="answers d-none">Son equivalentes</td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-check text-primary"></i>
+                <span class="ml-2 d-none d-md-inline">Correcto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">Sean c1, c2, c3 y c4 cuatro condiciones dentro de la siguiente
+                    cláusula WHERE.<br />¿Cuáles de los siguientes casos aparecería como
+                    resultado?
+                </span>
+                <div class="code text-left px-2">
+                    <pre
+                        class="mx-auto font-weight-bold hljs armasm"><code class="lang-bash"><span class="hljs-symbol">WHERE</span> (<span class="hljs-built_in">c1</span> <span class="hljs-keyword">AND </span><span class="hljs-built_in">c2</span>) OR (<span class="hljs-built_in">c3</span> <span class="hljs-keyword">AND </span><span class="hljs-built_in">c4</span>)</code></pre>
+                </div>
+            </td>
+            <td class="answers d-none">Todos los casos</td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-check text-primary"></i>
+                <span class="ml-2 d-none d-md-inline">Correcto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">La siguiente consulta SQL sobre una supuesta tabla productos:
+                </span>
+                <div class="code text-left px-2">
+                    <pre
+                        class="mx-auto font-weight-bold hljs n1ql"><code class="lang-bash"><span class="hljs-keyword">SELECT</span> <span class="hljs-built_in">MAX</span>(precio), <span class="hljs-built_in">MIN</span>(precio), <span class="hljs-built_in">AVG</span>(precio)<br><span class="hljs-keyword">FROM</span> productos<br>;</code></pre>
+                </div>
+            </td>
+            <td class="answers d-none">
+                Dará como resultado 3 filas, una para cada función de agregado
+            </td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-times fa-lg text-secondary"></i>
+                <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">Las siguientes consulta SQL sobre una supuesta tabla productos:
+                </span>
+                <div class="code text-left px-2">
+                    <pre
+                        class="mx-auto font-weight-bold hljs n1ql"><code class="lang-bash"><span class="hljs-keyword">SELECT</span> <span class="hljs-built_in">count</span>(id_product), id_categoria<br>FROM productos<br>WHERE precio_venta &lt;= <span class="hljs-number">50</span><br><span class="hljs-keyword">GROUP</span> <span class="hljs-keyword">BY</span> id_categoria<br>ORDER <span class="hljs-keyword">BY</span> id_categoria<br>HAVING <span class="hljs-built_in">count</span>(id_product) &gt; <span class="hljs-number">100</span><br>;</code></pre>
+                </div>
+            </td>
+            <td class="answers d-none">Todas son correctas</td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-check text-primary"></i>
+                <span class="ml-2 d-none d-md-inline">Correcto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">Las siguientes consultas SQL ejecutada sobre la tabla empleados:
+                </span>
+                <div class="code text-left px-2">
+                    <pre
+                        class="mx-auto font-weight-bold hljs n1ql"><code class="lang-bash"><span class="hljs-keyword">SELECT</span> id_empleado <span class="hljs-keyword">AS</span> Código, nombre_empleado <span class="hljs-keyword">AS</span> Nombre<br>FROM empleados<br>WHERE id_empleado = <span class="hljs-number">123</span><br>;</code></pre>
+                </div>
+            </td>
+            <td class="answers d-none">
+                Devolvería una sola fila asumiendo que id_empleado es clave principal
+            </td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-check text-primary"></i>
+                <span class="ml-2 d-none d-md-inline">Correcto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">El operador IN: </span>
+            </td>
+            <td class="answers d-none">Todas son correctas</td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-times fa-lg text-secondary"></i>
+                <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="font-weight-normal">Los procedimientos almacenados (procedures):
+                </span>
+            </td>
+            <td class="answers d-none">
+                Se programan con un mismo lenguaje estándar en cualquier DBMS
+            </td>
+            <td class="text-center d-md-flex flex-nowrap align-items-center">
+                <i class="fas fa-times fa-lg text-secondary"></i>
+                <span class="ml-2 d-none d-md-inline font-weight-normal text-secondary">Incorrecto</span>
+            </td>
+        </tr>
+    </tbody>
+    <!-- Segundo intento del examen -->
+    <!-- Tercer intento del examen -->
+</table>
