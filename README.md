@@ -24,6 +24,8 @@ En este repositorio se encuantran notas y apuntes relacionado con diversos curso
 * Curso de Java 8 desde cero [Enlace](https://openwebinars.net/academia/portada/java/ "Curso de Java 8 desde cero")
 
 * Curso de Hibernate y JPA [Enlace](https://openwebinars.net/academia/portada/hibernate/ "Curso de Hibernate y JPA")
+
+* Curso de SQL desde cero [Enlace](https://openwebinars.net/academia/aprende/sql/ "Curso de SQL desde cero")
 ## Plantilla<a name="id_plantillas"></a>
 ~~~
 <table class="table table-striped table-borderless">
